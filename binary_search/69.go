@@ -1,18 +1,18 @@
 package binary_search
 
 func mySqrt(x int) int {
-	//left := 0
-	//right := x
-	//for left < right {
-	//	mid := left + (right-left+1)/2
-	//	if mid*mid <= x { // 找前继
-	//		left = mid
-	//	} else {
-	//		right = mid - 1
-	//	}
-	//}
-	//return right
-	return int(doubleForMySqrt(x))
+	left := 0
+	right := x
+	for left < right {
+		mid := left + (right-left+1)/2
+		if mid*mid <= x { // 找前继
+			left = mid
+		} else {
+			right = mid - 1
+		}
+	}
+	return right
+	//return int(doubleForMySqrt(x))
 }
 
 func doubleForMySqrt(x int) float64 { // 实数二分
