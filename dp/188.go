@@ -1,7 +1,6 @@
 package dp
 
 import (
-	"code-train-3/common"
 	"math"
 )
 
@@ -22,9 +21,9 @@ func maxProfit188(k int, prices []int) int {
 			for l := 0; l <= k; l++ {
 				f[i&1][j][l] = f[(i-1)&1][j][l] // 不变
 				if l > 0 {                      // f[i][1][0] 非法
-					f[i&1][1][l] = common.MaxInt(f[(i-1)&1][0][l-1]-prices[i-1], f[i&1][1][l]) // 买
+					f[i&1][1][l] = min(f[(i-1)&1][0][l-1]-prices[i-1], f[i&1][1][l]) // 买
 				}
-				f[i&1][0][l] = common.MaxInt(f[(i-1)&1][1][l]+prices[i-1], f[i&1][0][l]) // 卖
+				f[i&1][0][l] = min(f[(i-1)&1][1][l]+prices[i-1], f[i&1][0][l]) // 卖
 			}
 		}
 	}

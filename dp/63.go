@@ -1,7 +1,5 @@
 package dp
 
-import "code-train-3/common"
-
 var m int
 var n int
 var ans int
@@ -63,7 +61,7 @@ func dfsForUniquePathsWithObstacles(x, y int, obstacleGrid [][]int) int {
 	if y < n-1 {
 		right = dfsForUniquePathsWithObstacles(x, y+1, obstacleGrid)
 	}
-	ansForXY[x][y] = common.MaxInt(ansForXY[x][y], down+right)
+	ansForXY[x][y] = min(ansForXY[x][y], down+right)
 	return ansForXY[x][y]
 }
 
@@ -93,7 +91,7 @@ func uniquePathsWithObstacles2(obstacleGrid [][]int) int {
 			} else if j == 0 {
 				f[i][j] = f[i-1][j]
 			} else {
-				f[i][j] = common.MaxInt(f[i][j], f[i-1][j]+f[i][j-1])
+				f[i][j] = min(f[i][j], f[i-1][j]+f[i][j-1])
 			}
 		}
 	}

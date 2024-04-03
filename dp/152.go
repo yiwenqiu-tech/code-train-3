@@ -1,7 +1,6 @@
 package dp
 
 import (
-	"code-train-3/common"
 	"math"
 )
 
@@ -16,8 +15,8 @@ func maxProduct(nums []int) int {
 	minF[0] = nums[0]
 
 	for i := 1; i < len(nums); i++ {
-		maxF[i] = common.MaxInt(common.MaxInt(minF[i-1]*nums[i], maxF[i-1]*nums[i]), nums[i])
-		minF[i] = common.MinInt(common.MinInt(minF[i-1]*nums[i], maxF[i-1]*nums[i]), nums[i])
+		maxF[i] = min(min(minF[i-1]*nums[i], maxF[i-1]*nums[i]), nums[i])
+		minF[i] = min(min(minF[i-1]*nums[i], maxF[i-1]*nums[i]), nums[i])
 	}
 
 	var ans = math.MinInt32

@@ -1,13 +1,13 @@
-package common
+package dp
 
-func MaxInt(x, y int) int {
+func max(x, y int) int {
 	if x > y {
 		return x
 	}
 	return y
 }
 
-func MinInt(x, y int) int {
+func min(x, y int) int {
 	if x < y {
 		return x
 	}

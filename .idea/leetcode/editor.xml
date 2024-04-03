@@ -399,6 +399,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="/var/folders/8s/5pmcl8m547357v7v73513f8h0000gn/T/leetcode/editor/cn/[2279]装满石头的背包的最大数量.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/8s/5pmcl8m547357v7v73513f8h0000gn/T/leetcode/editor/cn/doc/content/[2279]装满石头的背包的最大数量.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2279" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/var/folders/8s/5pmcl8m547357v7v73513f8h0000gn/T/leetcode/editor/cn/[2279]装满石头的背包的最大数量.go" />
+              <option name="titleSlug" value="maximum-bags-with-full-capacity-of-rocks" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="/var/folders/8s/5pmcl8m547357v7v73513f8h0000gn/T/leetcode/editor/cn/[22]括号生成.go">
           <value>
             <LeetcodeEditor>
@@ -451,6 +462,28 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="/var/folders/8s/5pmcl8m547357v7v73513f8h0000gn/T/leetcode/editor/cn/[2460]对数组执行操作.go" />
               <option name="titleSlug" value="apply-operations-to-an-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/8s/5pmcl8m547357v7v73513f8h0000gn/T/leetcode/editor/cn/[2551]将珠子放入背包中.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/8s/5pmcl8m547357v7v73513f8h0000gn/T/leetcode/editor/cn/doc/content/[2551]将珠子放入背包中.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2551" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/var/folders/8s/5pmcl8m547357v7v73513f8h0000gn/T/leetcode/editor/cn/[2551]将珠子放入背包中.go" />
+              <option name="titleSlug" value="put-marbles-in-bags" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/8s/5pmcl8m547357v7v73513f8h0000gn/T/leetcode/editor/cn/[279]完全平方数.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/8s/5pmcl8m547357v7v73513f8h0000gn/T/leetcode/editor/cn/doc/content/[279]完全平方数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn279" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/var/folders/8s/5pmcl8m547357v7v73513f8h0000gn/T/leetcode/editor/cn/[279]完全平方数.go" />
+              <option name="titleSlug" value="perfect-squares" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -575,6 +608,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="/var/folders/8s/5pmcl8m547357v7v73513f8h0000gn/T/leetcode/editor/cn/[416]分割等和子集.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/8s/5pmcl8m547357v7v73513f8h0000gn/T/leetcode/editor/cn/doc/content/[416]分割等和子集.md" />
+              <option name="frontendQuestionId" value="leetcode.cn416" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/var/folders/8s/5pmcl8m547357v7v73513f8h0000gn/T/leetcode/editor/cn/[416]分割等和子集.go" />
+              <option name="titleSlug" value="partition-equal-subset-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="/var/folders/8s/5pmcl8m547357v7v73513f8h0000gn/T/leetcode/editor/cn/[429]N 叉树的层序遍历.go">
           <value>
             <LeetcodeEditor>
@@ -685,6 +729,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="/var/folders/8s/5pmcl8m547357v7v73513f8h0000gn/T/leetcode/editor/cn/[518]零钱兑换 II.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/8s/5pmcl8m547357v7v73513f8h0000gn/T/leetcode/editor/cn/doc/content/[518]零钱兑换 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn518" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/var/folders/8s/5pmcl8m547357v7v73513f8h0000gn/T/leetcode/editor/cn/[518]零钱兑换 II.go" />
+              <option name="titleSlug" value="coin-change-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="/var/folders/8s/5pmcl8m547357v7v73513f8h0000gn/T/leetcode/editor/cn/[51]N 皇后.go">
           <value>
             <LeetcodeEditor>
@@ -715,6 +770,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="/var/folders/8s/5pmcl8m547357v7v73513f8h0000gn/T/leetcode/editor/cn/[53]最大子数组和.go" />
               <option name="titleSlug" value="maximum-subarray" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/8s/5pmcl8m547357v7v73513f8h0000gn/T/leetcode/editor/cn/[55]跳跃游戏.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/8s/5pmcl8m547357v7v73513f8h0000gn/T/leetcode/editor/cn/doc/content/[55]跳跃游戏.md" />
+              <option name="frontendQuestionId" value="leetcode.cn55" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/var/folders/8s/5pmcl8m547357v7v73513f8h0000gn/T/leetcode/editor/cn/[55]跳跃游戏.go" />
+              <option name="titleSlug" value="jump-game" />
             </LeetcodeEditor>
           </value>
         </entry>
