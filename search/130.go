@@ -14,6 +14,7 @@ func solve(board [][]byte) {
 		oPos[index] = make([]bool, boardN)
 	}
 
+	// 只遍历边界的点
 	for i := 0; i < boardM; i++ {
 		for j := 0; j < boardN; j++ {
 			if i != 0 && i != boardM-1 && j != 0 && j != boardN-1 { // 不处于边界，不需要参与计算
@@ -25,6 +26,7 @@ func solve(board [][]byte) {
 			}
 		}
 	}
+	// 剩下点均填充为X
 	for i := range board {
 		for j := range board[i] {
 			if !oPos[i][j] {
