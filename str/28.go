@@ -76,9 +76,47 @@ func strStr3(haystack string, needle string) int {
 		r := l + nn - 1
 		curHash := ((h[r+1]-h[l]*base)%p + p) % p
 		if curHash == nHash {
-			if haystack[l:r+1] == needle {
+			if haystack[l:r+1] == needle { // 当hash相等时，再通过字符串匹配一下。
 				return l
 			}
+		}
+	}
+	return -1
+}
+
+func strStrKMP(haystack string, needle string) int {
+	m := len(needle)
+
+	needle = " " + needle
+	haystack = " " + haystack
+
+	// 求next数组
+	var next = make([]int, len(needle))
+	next[1] = 0
+	i := 2 // 被匹配串起点
+	j := 0 // 匹配串
+	for ; i <= m; i++ {
+		for j > 0 && needle[i] != needle[j+1] {
+			j = next[j]
+		}
+		if needle[i] == needle[j+1] {
+			j++
+		}
+		next[i] = j
+	}
+	i = 1
+	j = 0
+	var f = make([]int, len(haystack))
+	for ; i < len(haystack); i++ {
+		for j > 0 && (j == m /* 满一个了 */ || haystack[i] != needle[j+1]) {
+			j = next[j]
+		}
+		if haystack[i] == needle[j+1] {
+			j++
+		}
+		f[i] = j // 第i个字符匹配的字符串数量
+		if f[i] == m {
+			return i - j // 求多个的时候，可以这里append结果
 		}
 	}
 	return -1

@@ -31,7 +31,7 @@ func Test_strStr(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := strStr3(tt.args.haystack, tt.args.needle); got != tt.want {
+			if got := strStrKMP(tt.args.haystack, tt.args.needle); got != tt.want {
 				t.Errorf("strStr() = %v, want %v", got, tt.want)
 			}
 		})
