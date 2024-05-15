@@ -37,10 +37,10 @@ func inorderSuccessorForVal(root *TreeNode, val int) *TreeNode {
 	if root == nil {
 		return nil
 	}
-	if root.Val == val {
-		if root.Right != nil {
+	if root.Val == val { // 找到了val
+		if root.Right != nil { // 存在右子树
 			result = root.Right
-			for result.Left != nil {
+			for result.Left != nil { // 在右子树里找最左的子树
 				result = result.Left
 			}
 			return result
