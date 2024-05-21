@@ -1,6 +1,7 @@
 package search
 
 import (
+	"fmt"
 	"math"
 )
 
@@ -16,6 +17,9 @@ var box37 [10]int
 
 func solveSudoku(board [][]byte) {
 	board37 = board
+	row37 = [10]int{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+	col37 = [10]int{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+	box37 = [10]int{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
 
 	for i := 0; i < len(board); i++ {
 		for j := 0; j < len(board[i]); j++ {
@@ -27,6 +31,9 @@ func solveSudoku(board [][]byte) {
 			}
 		}
 	}
+	fmt.Println(row37)
+	fmt.Println(col37)
+	fmt.Println(box37)
 	dfsForSolveSudoku()
 }
 
